@@ -8,6 +8,7 @@ Group:		Libraries
 Source0:	ftp://ftp.starlink.rl.ac.uk/pub/ussc/store/hds/hds.tar.Z
 # Source0-md5:	958b8eba37e53175bc890d70257908da
 URL:		http://www.starlink.rl.ac.uk/static_www/soft_further_HDS.html
+BuildRequires:	gcc-g77
 BuildRequires:	sed >= 4.0
 BuildRequires:	starlink-chr-devel
 BuildRequires:	starlink-ems-devel
