@@ -55,7 +55,7 @@ problemu konwersji formatu przy przenoszeniu miêdzy maszynami.
 Summary:	Header files for HDS library
 Summary(pl):	Pliki nag³ówkowe biblioteki HDS
 Group:		Development/Libraries
-Requires:	%{name} = %{version}
+Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-chr-devel
 Requires:	starlink-ems-devel
 
@@ -69,7 +69,7 @@ Pliki nag³ówkowe biblioteki HDS.
 Summary:	Static Starlink HDS library
 Summary(pl):	Statyczna biblioteka Starlink HDS
 Group:		Development/Libraries
-Requires:	%{name}-devel = %{version}
+Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink HDS library.
