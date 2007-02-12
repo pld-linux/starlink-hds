@@ -1,5 +1,5 @@
 Summary:	HDS - Hierarchical Data System
-Summary(pl.UTF-8):   HDS - hierarchiczny system danych
+Summary(pl.UTF-8):	HDS - hierarchiczny system danych
 Name:		starlink-hds
 Version:	4.3_4.218
 Release:	1
@@ -53,7 +53,7 @@ problemu konwersji formatu przy przenoszeniu między maszynami.
 
 %package devel
 Summary:	Header files for HDS library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki HDS
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki HDS
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-chr-devel
@@ -67,7 +67,7 @@ Pliki nagłówkowe biblioteki HDS.
 
 %package static
 Summary:	Static Starlink HDS library
-Summary(pl.UTF-8):   Statyczna biblioteka Starlink HDS
+Summary(pl.UTF-8):	Statyczna biblioteka Starlink HDS
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
