@@ -1,5 +1,5 @@
 Summary:	HDS - Hierarchical Data System
-Summary(pl):	HDS - hierarchiczny system danych
+Summary(pl.UTF-8):   HDS - hierarchiczny system danych
 Name:		starlink-hds
 Version:	4.3_4.218
 Release:	1
@@ -35,25 +35,25 @@ All information stored in HDS files is portable between the machines
 on which HDS is implemented. Thus, there are no format conversion
 problems when moving between machines.
 
-%description -l pl
+%description -l pl.UTF-8
 HDS to oparty na plikach hierarchiczny system danych opracowany do
-przechowywania ró¿nych informacji. W szczególno¶ci jest dopasowany do
-przechowywania du¿ych wielowymiarowych tablic (z ich danymi
-pomocniczymi), gdzie potrzebny jest wydajny dostêp.
+przechowywania rÃ³Å¼nych informacji. W szczegÃ³lnoÅ›ci jest dopasowany do
+przechowywania duÅ¼ych wielowymiarowych tablic (z ich danymi
+pomocniczymi), gdzie potrzebny jest wydajny dostÄ™p.
 
-HDS organizuje dane w hierarchie, podobnie jak struktury katalogów w
-hierarchicznym systemie plików, ale zawarte w pojedynczym pliku
-kontenera HDS. Struktury zapisane w tych plikach s± samoopisuj±ce siê
-i elastyczne; HDS obs³uguje modyfikowanie i rozszerzanie poprzednio
-utworzonych struktur, a tak¿e usuwanie, kopiowanie, zmianê nazwy itp.
+HDS organizuje dane w hierarchie, podobnie jak struktury katalogÃ³w w
+hierarchicznym systemie plikÃ³w, ale zawarte w pojedynczym pliku
+kontenera HDS. Struktury zapisane w tych plikach sÄ… samoopisujÄ…ce siÄ™
+i elastyczne; HDS obsÅ‚uguje modyfikowanie i rozszerzanie poprzednio
+utworzonych struktur, a takÅ¼e usuwanie, kopiowanie, zmianÄ™ nazwy itp.
 
-Wszystkie informacje zapisane w plikach HDS s± przeno¶ne miêdzy
-maszynami, na których HDS jest zaimplementowany, dlatego nie ma
-problemu konwersji formatu przy przenoszeniu miêdzy maszynami.
+Wszystkie informacje zapisane w plikach HDS sÄ… przenoÅ›ne miÄ™dzy
+maszynami, na ktÃ³rych HDS jest zaimplementowany, dlatego nie ma
+problemu konwersji formatu przy przenoszeniu miÄ™dzy maszynami.
 
 %package devel
 Summary:	Header files for HDS library
-Summary(pl):	Pliki nag³ówkowe biblioteki HDS
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki HDS
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	starlink-chr-devel
@@ -62,19 +62,19 @@ Requires:	starlink-ems-devel
 %description devel
 Header files for HDS library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki HDS.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki HDS.
 
 %package static
 Summary:	Static Starlink HDS library
-Summary(pl):	Statyczna biblioteka Starlink HDS
+Summary(pl.UTF-8):   Statyczna biblioteka Starlink HDS
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static Starlink HDS library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka Starlink HDS.
 
 %prep
